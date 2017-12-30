@@ -2,7 +2,7 @@
 
 Exynos  
 
-Exypnos <or> Prasinos
+Exypnos or Prasinos /Git
 
 AMOLED
 
