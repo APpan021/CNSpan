@@ -267,3 +267,43 @@ http://www.sohu.com/a/71849316_224832
 脑控受害者眼中的“脑控”
  
 2016年3月31日，网络上的一篇名为《郑州教师校内坠亡 校方称其自称被人“脑控”》的新闻中写道“当事人跳楼的当天上午，李旭东确实给国教学院党总支副书记、书记打了电话，称自己被’脑控‘“。网络上有一些脑控受害者聚集的论坛、社群等，在脑控受害者眼中，他们认为是有人人为使用高科技设备，以远距离向他们的大脑发射可转换成影像、声音、动作指令的电波，导致其大脑中产生一些影像、对话、场景，以及导致其产生一些匪夷所思、无法控制的举动，例如伤害自己或者伤害别人。
+
+
+
+...
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>动态创建表格</title>
+<script type="text/javascript" src="Scripts/jquery-1.3.2.js"></script>
+<script type="text/javascript">
+ function CreateTable(rowCount,cellCount)
+ { 
+   var table=$("<table border=\"1\">");
+   table.appendTo($("#createtable"));
+   for(var i=0;i<rowCount;i++)
+   {
+    var tr=$("<tr></tr>");
+    tr.appendTo(table);
+    for(var j=0;j<cellCount;j++)
+    {
+      var td=$("<td>"+i*j+"</td>");
+      td.appendTo(tr);
+    }
+   }
+   trend.appendTo(table);
+   $("#createtable").append("</table>");
+ }
+</script>
+</head>
+  
+<body>
+<input type="button" value="添加表格" onClick="CreateTable(5,6)" >
+<input type="button" value="添加行">
+<div id="createtable"></div>
+<div id="createrow"></div>
+</body>
+</html>
