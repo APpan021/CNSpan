@@ -17,7 +17,7 @@ https://www.bmbf.de
 [2]  Berlin Brain-Computer Interface (BBCI)．bbci 
 http://www.bbci.de
 
-[3]  Bluebrain | EPFL
+[3]  Bluebrain | EPFL)．epfl
 https://bluebrain.epfl.ch/
 
 :)#edit
